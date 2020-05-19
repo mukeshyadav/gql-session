@@ -1,0 +1,30 @@
+{
+  "name": "gql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "apollo-server": "^2.13.0",
+    "apollo-server-express": "^2.13.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.0.0",
+    "mysql2": "^2.1.0",
+    "rimraf": "^3.0.2",
+    "sequelize": "^5.21.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "start": "nodemon start.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
